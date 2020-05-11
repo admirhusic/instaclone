@@ -1,5 +1,32 @@
+![Instaclone Logo](/public/app-images/logo-medium.png) 
+
 #Instaclone 
 
-## This is a instagram clone 
+## This is an instagram clone 
 
-More info and instalation guidelines comming soon
+Instagram web made in Laravel and Vue.js
+
+Not all Instagram functionalities are implemented, but the main ones are implemented, if someone is in the mood, feel free to make a pull request. I was bored in quarantine so I played around a bit.
+
+### Instalation
+
+```
+git clone 
+
+cd instaclone
+
+composer install 
+   
+npm install 
+
+Rename .env.example to .env and edit your database credentials 
+
+create a database
+
+php artisan key:generate 
+
+npm run watch
+
+php artisan serve
+
+```
