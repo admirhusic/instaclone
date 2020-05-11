@@ -1,0 +1,98 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+@import '~bootstrap-vue';
+
+
+a {
+    color: #000 !important;
+}
+
+
+.navbar-avatar {
+    border: 1px solid #000;
+    width: 25px;
+    height: 25px;
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+}
+
+.profile-avatar-mobile {
+    width: 80px;
+    height: 80px;
+}
+
+.profile a {
+    color: #000;
+}
+
+.profile .url {
+    color: #007bff;
+}
+
+.fileinput-remove,
+.fileinput-upload{
+	display: none;
+}
+
+.overlay {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    // transition: .5s ease;
+    background-color:rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .overlay:hover {
+    opacity: 0.8;
+  }
+
+  .overlay-text {
+      color: #fff;
+      font-size: 1.5em;
+  }
+
+
+  .post-avatar {
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .post-link {
+      color: #000;
+      text-decoration: none !important;
+  }
+
+.card a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+
+.card-body {
+    padding: 0px !important;
+
+}
+
+// div {
+//     border: 1px solid pink !important;
+// }
