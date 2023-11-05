@@ -32,3 +32,7 @@ npm run watch
 php artisan serve
 
 ```
+
+#### Fixes
+
+1.  Problems with webpack see: https://github.com/laravel-mix/laravel-mix/issues/2383#issuecomment-643265068
